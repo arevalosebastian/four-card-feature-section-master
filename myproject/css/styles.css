@@ -142,7 +142,7 @@ body{
         border-top: 3px solid hsl(0, 78%, 62%);
     }
 
-    .flexbox2 .box:first-child br{
+    .flexbox2:first-child .box__subtitle br{
         display: none;
     }
     
