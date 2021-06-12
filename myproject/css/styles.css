@@ -115,8 +115,13 @@ body{
         justify-content: space-around;
     }
 
+    .box{
+        height: 250px;
+        width: 313px;
+    }
+
     .box__subtitle{
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .flexbox1{
