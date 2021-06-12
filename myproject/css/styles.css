@@ -1,0 +1,91 @@
+html{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+}
+
+.header{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.header__title{
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.header__title b{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    word-spacing: -3px;
+}
+
+.header__subtitle{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 283px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 1px rgb(209, 209, 209);
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.box:first-child{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.box:nth-child(2){
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.box:nth-child(3){
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.box:last-child{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.box__title,
+.box__subtitle{
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.box__title{
+    margin-top: 30px;
+    color: hsl(234, 12%, 34%);
+}
+
+.box__subtitle{
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.box img{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 25px;
+    bottom: 25px;
+}
+
