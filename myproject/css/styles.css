@@ -141,6 +141,10 @@ body{
     .flexbox2 .box:first-child{
         border-top: 3px solid hsl(0, 78%, 62%);
     }
+
+    .flexbox2 .box:first-child br{
+        display: none;
+    }
     
     .flexbox2 .box:nth-child(2){
         border-top: 3px solid hsl(34, 97%, 64%);
